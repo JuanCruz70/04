@@ -1,0 +1,94 @@
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 400%;
+    color: rgb(255, 255, 255);
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 150%;
+}
+
+p {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 140%;
+}
+
+#opciones {
+    text-align: center;
+    list-style: none;
+    /* elimina los puntitos (viñeta) */
+}
+
+#opciones li {
+    display: inline-block;
+    /* la lista la coloca horizontalmente */
+    padding: 10px;
+}
+
+.boton {
+    text-decoration: none;
+    /* Eliminamos el subrayado del enlace */
+    color: #ffffff;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 5px;
+    /* margen interior */
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.boton:hover {
+    /* pseudoclase hover se activa cuando el mouse está por encima del elemento */
+    background-color: rgb(255, 255, 255);
+    color: #ffffff;
+}
+picture {
+    display: flex;
+    justify-content: center;
+}
+
+picture img {
+    width: 15%;
+}
+.Volver{
+    list-style: none;
+}
+.bmwboton{
+    list-style: none;
+}
+
+#fondo {
+    background-image: url(fondo.avif);
+    color: #ffffff;
+}
+
+#audi {
+    background-image: url(fondo.avif);
+    color: #ffffff;
+}
+
+#bmw {
+    background-image: url(fondo.avif);
+    color: #ffffff;
+}
+
+#dodge {
+    background-image: url(fondo.avif);
+    color: #ffffff;
+}
+
+#fiat {
+    background-image: url(fondo.avif);
+    color: #ffffff;
+}
+
+#toyota {
+    background-image: url(fondo.avif);
+    color: #ffffff;
+}
